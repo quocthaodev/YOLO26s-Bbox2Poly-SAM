@@ -1,0 +1,16 @@
+# Dataset (Chặn toàn bộ dữ liệu nặng)
+BRACOL_BBOX_BACKUP/
+BRACOL_REVIEWED/
+BRACOL_SEG_SAM/
+
+# Repo sam2 clone từ facebookresearch/sam2
+sam2/
+
+# Weights & Results (Chặn file trọng số và kết quả train)
+*.pt
+weights/
+runs/
+
+# Python cache (Chặn file rác hệ thống)
+__pycache__/
+.DS_Store
